@@ -3,9 +3,16 @@
   "name": "3tz",
   "version": "1.0.0",
   "description": "Check a US area code's timezone.",
+  "icons": {
+    "16": "icon.png",
+    "32": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
   "action": {
     "default_popup": "popup.html",
-    "default_title": "Area Code Timezone Checker"
+    "default_title": "Area Code Timezone Checker",
+    "default_icon": "icon.png"
   },
   "commands": {
     "_execute_action": {
