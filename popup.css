@@ -1,0 +1,44 @@
+:root {
+  color-scheme: light;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  min-width: 220px;
+  background: #f7f7f8;
+  color: #1f2933;
+}
+
+.popup {
+  padding: 16px;
+}
+
+.label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.input {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #cbd2d9;
+  border-radius: 8px;
+  font-size: 18px;
+}
+
+.result {
+  margin: 12px 0 0;
+  min-height: 24px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.hint {
+  margin: 8px 0 0;
+  font-size: 12px;
+  color: #52606d;
+}
