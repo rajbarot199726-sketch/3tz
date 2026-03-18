@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3tz</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <main class="popup">
+      <label class="label" for="area-code">US area code</label>
+      <input
+        id="area-code"
+        class="input"
+        type="text"
+        inputmode="numeric"
+        maxlength="3"
+        placeholder="623"
+        autocomplete="off"
+      />
+      <p id="result" class="result">Enter a 3-digit area code.</p>
+    </main>
+    <script src="popup.js"></script>
+  </body>
+</html>
