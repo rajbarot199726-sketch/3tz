@@ -6,5 +6,13 @@
   "action": {
     "default_popup": "popup.html",
     "default_title": "Area Code Timezone Checker"
+  },
+  "commands": {
+    "_execute_action": {
+      "suggested_key": {
+        "default": "Alt+X"
+      },
+      "description": "Open the area code popup"
+    }
   }
 }
